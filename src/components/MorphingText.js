@@ -12,7 +12,7 @@ function MorphingText() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        {!isToggled && 'Текст номер 1'}
+        {!isToggled && 'нажми меня'}
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}

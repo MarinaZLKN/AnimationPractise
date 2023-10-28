@@ -50,6 +50,7 @@ function App() {
                     </motion.button>
                 </div>
                 <div className="animation3">
+                    неведи курсор
                     <motion.div
                       initial={{ opacity: 0 }}
                       whileHover={{ opacity: 1, fontSize: '22px' }}
@@ -161,13 +162,16 @@ function App() {
                           {char}
                         </motion.span>
                       ))}
+
                         <TypingEffect text="Это тоже эффект печатноц машинки, но работает при наведении" />
+
                     </div>
                 </div>
                 <div className="animation12">
                     <ImageTextCard/>
                 </div>
                 <div className="animation8">
+
                     <div style={{ padding: '20px' }}>
                       <div style={{ height: '155px', background: '#ece0fa' }}></div>
                         <ScrollAnimationText />
