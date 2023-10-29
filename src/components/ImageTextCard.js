@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
+import picture from '../images/picture2.webp';
 function ImageTextCard() {
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -32,7 +32,7 @@ function ImageTextCard() {
               position: "absolute",
               width: "100%",
               height: "100%",
-              background: `url(/picture2.webp) center/cover no-repeat`,
+              background: `url(${picture}) center/cover no-repeat`,
               backfaceVisibility: "hidden"
             }}
           ></div>

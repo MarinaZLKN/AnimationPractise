@@ -1,6 +1,8 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
+import picture from '../images/picture.png';
+
 function ScrollAnimationImage() {
   const controls = useAnimation();
   const [elementTop, setElementTop] = useState(0);
@@ -26,13 +28,13 @@ function ScrollAnimationImage() {
     window.addEventListener('scroll', onScroll);
 
     return () => window.removeEventListener('scroll', onScroll);
-  }, [controls]);
+  }, [controls, elementTop]);
 
   return (
     <motion.img
       id="animated-image"
       animate={controls}
-      src="/picture.png"
+      src={picture}
       alt="Your image description"
       style={{ width: '200px', height: '200px',display: 'block' }}
     />
