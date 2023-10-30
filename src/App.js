@@ -7,6 +7,7 @@ import TypingEffect from "./components/TypingEffect";
 import MorphingText from "./components/MorphingText";
 import ScrollAnimationImage from "./components/ScrollAnimationImage";
 import ImageTextCard from "./components/ImageTextCard";
+import Accordion from "./components/Accordion";
 
 function App() {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -179,6 +180,13 @@ function App() {
                       <div style={{ height: '15px', background: '#ece0fa' }}></div>
                     </div>
                 </div>
+                <div className="animation13">
+                    <div>
+                      <Accordion title="Вкладка 1" content="Информация 1" />
+                      <Accordion title="Вкладка 2" content="Информация 2" />
+                      <Accordion title="Вкладка 3" content="Информация 3" />
+                    </div>
+                </div>
                 <div className="animation9">
                     <div style={{ padding: '20px' }}>
                       <div style={{ height: '50px', background: '#ece0fa' }}></div>
@@ -186,6 +194,7 @@ function App() {
                       <div style={{ height: '250px', background: '#ece0fa' }}></div>
                     </div>
                 </div>
+
 
 
             </div>
