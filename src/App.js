@@ -9,6 +9,8 @@ import ScrollAnimationImage from "./components/ScrollAnimationImage";
 import ImageTextCard from "./components/ImageTextCard";
 import Accordion from "./components/Accordion";
 import MapYandex from "./components/MapYandex";
+import PhoneNumber from "./components/PhoneNumber";
+import GeolocationYandexMap from "./components/GeolocationYandexMap";
 
 function App() {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -152,6 +154,9 @@ function App() {
                 <div className="animation11">
                     <MorphingText />
                 </div>
+                <div className="animation16">
+                    <PhoneNumber/>
+                </div>
                 <div className="animation10">
                     <div>
                       {Array.from(text).map((char, index) => (
@@ -197,7 +202,8 @@ function App() {
                 </div>
 
                 <div className="animation15">
-                    < MapYandex />
+                    {/*< MapYandex />*/}
+                    <GeolocationYandexMap />
                 </div>
 
 
