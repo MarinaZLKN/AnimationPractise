@@ -8,6 +8,7 @@ import MorphingText from "./components/MorphingText";
 import ScrollAnimationImage from "./components/ScrollAnimationImage";
 import ImageTextCard from "./components/ImageTextCard";
 import Accordion from "./components/Accordion";
+import MapYandex from "./components/MapYandex";
 
 function App() {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -193,6 +194,10 @@ function App() {
                       <ScrollFadeText />
                       <div style={{ height: '250px', background: '#ece0fa' }}></div>
                     </div>
+                </div>
+
+                <div className="animation15">
+                    < MapYandex />
                 </div>
 
 
