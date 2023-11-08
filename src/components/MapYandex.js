@@ -2,6 +2,7 @@ import {YMaps, Map, Placemark} from '@pbe/react-yandex-maps';
 import pic from '../images/447031.png';
 
 function MapYandex () {
+
      const coordinates = [
         [55.7558, 37.6176],
         [55.7601, 37.6017],
